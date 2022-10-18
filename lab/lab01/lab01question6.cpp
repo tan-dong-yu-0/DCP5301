@@ -11,9 +11,7 @@ int Sum(int *arr, int size) {
 int main(int argc, char *argv[]) {
   int arr[5];
 
-  std::cout
-      << "Enter five numbers and the program will calculate sum of the numbers."
-      << std::endl;
+  std::cout << "Enter five numbers and the program will calculate sum of the numbers." << std::endl;
   for (int i = 1; i <= 5; i++) {
     std::cout << "Enter number " << i << ": ";
     std::cin >> arr[i];
